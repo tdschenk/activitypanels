@@ -1,0 +1,15 @@
+{
+    "code": "activity.counts",
+    "name" : "Activity Counts",
+    "description" : "Bar chart of occurences of each activity",
+    "dataset" : "pilrhealth:activity_ref_app:activity",
+    "schema" : "1",
+    "type" : "r:vega",
+    "package_url": "http://www.github.com/tdschenk/activitypanels",
+    "package_function": "activity.counts",
+    "filter_params" : [
+        "participant",
+        "group",
+		    "date"
+    ]
+}
