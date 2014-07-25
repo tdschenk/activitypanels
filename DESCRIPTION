@@ -6,5 +6,8 @@ Description: Contains functions used to create various dashboard panels using
     data from an activity recognition app
 Depends:
     R (>= 3.1.0)
+Imports: 
+    ggvis,
+    plyr
 License: TBD
 LazyData: true
