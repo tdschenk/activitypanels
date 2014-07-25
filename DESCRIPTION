@@ -2,7 +2,8 @@ Package: activitypanels
 Title: PiLR dashboard panels for activity_reference_app data
 Version: 0.1
 Authors: "Tyler Schenk <tschenk@meinergy.com>"
-Description: Contains functions used to create various dashboard panels using data from an activity recognition app
+Description: Contains functions used to create various dashboard panels using
+    data from an activity recognition app
 Depends:
     R (>= 3.1.0)
 License: TBD

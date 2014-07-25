@@ -1,6 +1,6 @@
 {
-    "code": "activity.counts",
-    "name" : "Activity Counts",
+    "code": "activitycounts2",
+    "name" : "Activity Counts 2",
     "description" : "Number of records per activity",
     "dataset" : "pilrhealth:activity_ref_app:activity",
     "schema" : "1",
@@ -10,6 +10,6 @@
     "filter_params" : [
         "participant",
         "group",
-		    "date"
+		"date"
     ]
 }

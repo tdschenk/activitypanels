@@ -6,6 +6,7 @@
 #' @docType package
 #' @param data The dataset retrieved from PiLR
 #' @param params A list of all arguments sent to pilr_dashboard_panel
+#' @import plyr ggvis
 
 ## Bar chart of occurences of each activity (not including "still")
 #' @export
