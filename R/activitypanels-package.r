@@ -16,5 +16,5 @@ activity.counts <- function(data, params, ...) {
     ggvis(x = ~activity, y = ~freq, fill := "lightblue") %>%
     layer_bars() %>%
     add_axis("x", title = "Activity") %>%
-    add_axis("y", title = "Number of Occurences")
+    add_axis("y", title = "Number of Records")
 }
