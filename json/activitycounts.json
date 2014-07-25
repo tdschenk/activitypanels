@@ -1,7 +1,7 @@
 {
     "code": "activity.counts",
     "name" : "Activity Counts",
-    "description" : "Bar chart of occurences of each activity",
+    "description" : "Number of records per activity",
     "dataset" : "pilrhealth:activity_ref_app:activity",
     "schema" : "1",
     "type" : "r:vega",
