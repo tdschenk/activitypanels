@@ -11,7 +11,7 @@
 ## Bar chart of occurences of each activity (not including "still")
 #' @export
 activity.counts <- function(data, params, ...) {
-  df <- count(data, "activity")
+  df <- count(data$activity, "activity")
   df <- df[df$activity != "still", ]
   df %>%
     ggvis(x = ~activity, y = ~freq, fill := "lightblue") %>%
