@@ -3,3 +3,4 @@
 export(activity.counts)
 import(ggvis)
 import(plyr)
+export(activity_class_bar)
